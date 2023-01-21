@@ -1,0 +1,48 @@
+:root{
+    --color-white: #FFF;
+    --background-color: #212529;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.body-inscription{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+.form-inscr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-inscription {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    border-radius: 2px;
+}
+
+.input-pseudo,
+.input-mail-inscr,
+.input-confirmail,
+.input-mdp,
+.input-mdp2 {
+    border-radius: 4px;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.submit-inscription {
+    cursor: pointer;
+    color: var(--background-color);
+    background-color: #B0D7FF;
+    border-radius: 10px;
+}
+
+
+.already-signin {
+    color: #B0D7FF;
+}
