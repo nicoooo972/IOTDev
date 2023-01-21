@@ -32,13 +32,10 @@
                     <h4 style="color: #B0D7FF;">Confirmation du mot de passe :</h4>
                     <input type="password" placeholder="Confirmez votre mot de passe" name="mdp2" class="input-mdp2" required>
 
-                    <h4 style="color: #B0D7FF;">Confirmation du mot de passe :</h4>
-                    <input type="file" id="imagepost2" name="imagepost2" accept="image/png, image/jpeg">
-
                     <br><br>
-
-                    <input type="submit" name="forminscription" class="submit-inscription" value="Valider">
-
+                    <div class="valid">
+                        <input type="submit" name="forminscription" class="submit-inscription" value="Valider">
+                    </div>
                 </form>
 
 </body>
